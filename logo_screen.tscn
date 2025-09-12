@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwkttoe0u6b5w"]
+
+[ext_resource type="Script" uid="uid://bdwj8wvcc8jf4" path="res://logo_screen.gd" id="1_p541y"]
+[ext_resource type="Texture2D" uid="uid://1ppx2vkyyeo5" path="res://1c5d1f46-c74f-408e-8e79-f48aad0a3b43.jpg" id="2_8yg8y"]
+
+[node name="LogoScreen" type="Node2D"]
+script = ExtResource("1_p541y")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(583.25, 331)
+scale = Vector2(1.17889, 0.684989)
+texture = ExtResource("2_8yg8y")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+autostart = true
