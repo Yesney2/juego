@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dgvmt4u3p6u76"]
 
-[ext_resource type="Texture2D" uid="uid://bjtgqijbx0n3m" path="res://gradient_2.jpg" id="1_6cta8"]
+[ext_resource type="Texture2D" uid="uid://bjtgqijbx0n3m" path="res://imagenes/gradient_2.jpg" id="1_6cta8"]
 
 [node name="Escanner" type="Node2D"]
 

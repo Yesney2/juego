@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://dol3q3ytm735t"]
 
-[ext_resource type="Script" uid="uid://8fhky1rvp2qk" path="res://reportar.gd" id="1_dkhm3"]
-[ext_resource type="Texture2D" uid="uid://bjtgqijbx0n3m" path="res://gradient_2.jpg" id="1_shgmc"]
-[ext_resource type="Texture2D" uid="uid://bl4obi4wxq6me" path="res://Diseño sin título (2).png" id="3_sqi6v"]
-[ext_resource type="Texture2D" uid="uid://cr1cusjq0xq2k" path="res://Diseño sin título.png" id="4_34d8x"]
-[ext_resource type="Texture2D" uid="uid://bpcmoatv0j1jw" path="res://rec (1).png" id="5_rypml"]
-[ext_resource type="Texture2D" uid="uid://dqbv21stg7bm2" path="res://Diseño sin título (1).png" id="6_2myqv"]
+[ext_resource type="Script" uid="uid://8fhky1rvp2qk" path="res://SCRIPITS/reportar.gd" id="1_dkhm3"]
+[ext_resource type="Texture2D" uid="uid://bjtgqijbx0n3m" path="res://imagenes/gradient_2.jpg" id="1_shgmc"]
+[ext_resource type="Texture2D" uid="uid://bl4obi4wxq6me" path="res://imagenes/Diseño sin título (2).png" id="3_sqi6v"]
+[ext_resource type="Texture2D" uid="uid://cr1cusjq0xq2k" path="res://imagenes/Diseño sin título.png" id="4_34d8x"]
+[ext_resource type="Texture2D" uid="uid://bpcmoatv0j1jw" path="res://imagenes/rec (1).png" id="5_rypml"]
+[ext_resource type="Texture2D" uid="uid://dqbv21stg7bm2" path="res://imagenes/Diseño sin título (1).png" id="6_2myqv"]
 
 [node name="REPORTAR" type="Node2D"]
 script = ExtResource("1_dkhm3")

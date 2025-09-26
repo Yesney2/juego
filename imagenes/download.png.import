@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dih5omimy6ecc"
-path="res://.godot/imported/globos-de-texto.png-d58293f5b5a10062f9d8625c897cd481.ctex"
+uid="uid://dqeyrgfrmndsu"
+path="res://.godot/imported/download.png-565ddf6230441e59215bb37ddf0b1865.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://globos-de-texto.png"
-dest_files=["res://.godot/imported/globos-de-texto.png-d58293f5b5a10062f9d8625c897cd481.ctex"]
+source_file="res://imagenes/download.png"
+dest_files=["res://.godot/imported/download.png-565ddf6230441e59215bb37ddf0b1865.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7hmvvv1dqkvh"
-path="res://.godot/imported/escaner-de-ojos.png-ea04114c596ac30fa03a53e6d31477de.ctex"
+uid="uid://dih5omimy6ecc"
+path="res://.godot/imported/globos-de-texto.png-d00ce57ce4d7cdb39c5fa3c44c65b215.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://escaner-de-ojos.png"
-dest_files=["res://.godot/imported/escaner-de-ojos.png-ea04114c596ac30fa03a53e6d31477de.ctex"]
+source_file="res://imagenes/globos-de-texto.png"
+dest_files=["res://.godot/imported/globos-de-texto.png-d00ce57ce4d7cdb39c5fa3c44c65b215.ctex"]
 
 [params]
 

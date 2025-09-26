@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://ci7r0dnqmmep0"]
 
-[ext_resource type="Script" uid="uid://ddy0kw0th5trs" path="res://config.gd" id="1_d7y1x"]
-[ext_resource type="Texture2D" uid="uid://bpc40hy878nwe" path="res://6053836.jpg" id="2_jitdt"]
+[ext_resource type="Script" uid="uid://ddy0kw0th5trs" path="res://SCRIPITS/config.gd" id="1_d7y1x"]
+[ext_resource type="Texture2D" uid="uid://bpc40hy878nwe" path="res://imagenes/6053836.jpg" id="2_jitdt"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kk1ac"]
 bg_color = Color(0.273849, 0.450497, 0.801959, 1)

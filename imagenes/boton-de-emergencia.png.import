@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8ra5es1vwyc7"
-path="res://.godot/imported/boton-de-emergencia.png-115b8f91a064d90cf3ac363a136e7f34.ctex"
+path="res://.godot/imported/boton-de-emergencia.png-f6d21ff63a35ad69a30521c945a500d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://boton-de-emergencia.png"
-dest_files=["res://.godot/imported/boton-de-emergencia.png-115b8f91a064d90cf3ac363a136e7f34.ctex"]
+source_file="res://imagenes/boton-de-emergencia.png"
+dest_files=["res://.godot/imported/boton-de-emergencia.png-f6d21ff63a35ad69a30521c945a500d2.ctex"]
 
 [params]
 

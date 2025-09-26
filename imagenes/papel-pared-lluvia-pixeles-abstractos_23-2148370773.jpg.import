@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1ppx2vkyyeo5"
-path="res://.godot/imported/1c5d1f46-c74f-408e-8e79-f48aad0a3b43.jpg-6ebeaf48fc26182d9f12017287408c55.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://bnripati5evu"
+valid=false
 
 [deps]
 
-source_file="res://1c5d1f46-c74f-408e-8e79-f48aad0a3b43.jpg"
-dest_files=["res://.godot/imported/1c5d1f46-c74f-408e-8e79-f48aad0a3b43.jpg-6ebeaf48fc26182d9f12017287408c55.ctex"]
+source_file="res://imagenes/papel-pared-lluvia-pixeles-abstractos_23-2148370773.jpg"
 
 [params]
 

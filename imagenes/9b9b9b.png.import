@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3bmyh7x2ll66"
-valid=false
+uid="uid://dvjlga4b5fcx8"
+path="res://.godot/imported/9b9b9b.png-2f0d861acda0c2adffd06e6c8c37ea39.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://SCRIPITS/fondo-abstracto-lluvia-pixeles_23-2148370435.jpg"
+source_file="res://imagenes/9b9b9b.png"
+dest_files=["res://.godot/imported/9b9b9b.png-2f0d861acda0c2adffd06e6c8c37ea39.ctex"]
 
 [params]
 

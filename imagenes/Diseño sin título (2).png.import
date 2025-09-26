@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://eji5d53c184j"
-path="res://.godot/imported/character_robot_attack0.png-0715544f2f5cdead9d616e73a0094120.ctex"
+uid="uid://bl4obi4wxq6me"
+path="res://.godot/imported/Diseño sin título (2).png-bd161a5865e01117c3316ce46a796bc2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character_robot_attack0.png"
-dest_files=["res://.godot/imported/character_robot_attack0.png-0715544f2f5cdead9d616e73a0094120.ctex"]
+source_file="res://imagenes/Diseño sin título (2).png"
+dest_files=["res://.godot/imported/Diseño sin título (2).png-bd161a5865e01117c3316ce46a796bc2.ctex"]
 
 [params]
 

@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://crjid5un3mxys"]
 
-[ext_resource type="Texture2D" uid="uid://dqeyrgfrmndsu" path="res://download.png" id="1_vdppq"]
-[ext_resource type="Texture2D" uid="uid://eji5d53c184j" path="res://character_robot_attack0.png" id="2_vic46"]
-[ext_resource type="Texture2D" uid="uid://b8ra5es1vwyc7" path="res://boton-de-emergencia.png" id="3_304tt"]
-[ext_resource type="Texture2D" uid="uid://c7hmvvv1dqkvh" path="res://escaner-de-ojos.png" id="4_qxbiw"]
-[ext_resource type="Texture2D" uid="uid://dih5omimy6ecc" path="res://globos-de-texto.png" id="5_86s8s"]
+[ext_resource type="Texture2D" uid="uid://dqeyrgfrmndsu" path="res://imagenes/download.png" id="1_qi2ha"]
+[ext_resource type="Texture2D" uid="uid://eji5d53c184j" path="res://imagenes/character_robot_attack0.png" id="2_7p48s"]
+[ext_resource type="Texture2D" uid="uid://c7hmvvv1dqkvh" path="res://imagenes/escaner-de-ojos.png" id="3_70o6u"]
+[ext_resource type="Texture2D" uid="uid://b8ra5es1vwyc7" path="res://imagenes/boton-de-emergencia.png" id="4_pe2ad"]
+[ext_resource type="Texture2D" uid="uid://dih5omimy6ecc" path="res://imagenes/globos-de-texto.png" id="5_mkiw3"]
 
 [node name="RobotScreen" type="Node2D"]
 
@@ -13,12 +13,12 @@
 [node name="Fondo" type="Sprite2D" parent="CanvasLayer"]
 position = Vector2(574, 326)
 scale = Vector2(5.1, 2.89111)
-texture = ExtResource("1_vdppq")
+texture = ExtResource("1_qi2ha")
 
 [node name="Robot" type="Sprite2D" parent="CanvasLayer"]
 position = Vector2(119, 353)
 scale = Vector2(1.88391, 1.34796)
-texture = ExtResource("2_vic46")
+texture = ExtResource("2_7p48s")
 
 [node name="texto" type="Label" parent="CanvasLayer"]
 offset_left = 153.0
@@ -34,7 +34,7 @@ offset_top = 485.0
 offset_right = 749.0
 offset_bottom = 1005.0
 scale = Vector2(0.22039, 0.192149)
-icon = ExtResource("4_qxbiw")
+icon = ExtResource("3_70o6u")
 flat = true
 
 [node name="Button2" type="Button" parent="CanvasLayer"]
@@ -43,7 +43,7 @@ offset_top = 491.0
 offset_right = 603.0
 offset_bottom = 1011.0
 scale = Vector2(0.184511, 0.163328)
-icon = ExtResource("3_304tt")
+icon = ExtResource("4_pe2ad")
 flat = true
 
 [node name="Button3" type="Button" parent="CanvasLayer"]
@@ -52,5 +52,5 @@ offset_top = 478.0
 offset_right = 901.0
 offset_bottom = 998.0
 scale = Vector2(0.251563, 0.20838)
-icon = ExtResource("5_86s8s")
+icon = ExtResource("5_mkiw3")
 flat = true

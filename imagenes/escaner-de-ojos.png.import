@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bl4obi4wxq6me"
-path="res://.godot/imported/Diseño sin título (2).png-abeac0ea65779404defc818e19171c31.ctex"
+uid="uid://c7hmvvv1dqkvh"
+path="res://.godot/imported/escaner-de-ojos.png-b5561c8f77c0f16aa7878ab8eb48497a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Diseño sin título (2).png"
-dest_files=["res://.godot/imported/Diseño sin título (2).png-abeac0ea65779404defc818e19171c31.ctex"]
+source_file="res://imagenes/escaner-de-ojos.png"
+dest_files=["res://.godot/imported/escaner-de-ojos.png-b5561c8f77c0f16aa7878ab8eb48497a.ctex"]
 
 [params]
 
