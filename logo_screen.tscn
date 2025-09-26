@@ -15,3 +15,15 @@ texture = ExtResource("2_8yg8y")
 wait_time = 5.0
 one_shot = true
 autostart = true
+
+[node name="Button" type="Button" parent="."]
+offset_left = 479.0
+offset_top = 468.0
+offset_right = 684.0
+offset_bottom = 619.0
+theme_override_colors/font_color = Color(1, 0.982552, 0.979539, 1)
+theme_override_colors/font_pressed_color = Color(0.713726, 0.694118, 0.266667, 1)
+theme_override_font_sizes/font_size = 56
+text = "INICIAR"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

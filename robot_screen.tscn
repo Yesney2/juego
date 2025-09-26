@@ -8,49 +8,49 @@
 
 [node name="RobotScreen" type="Node2D"]
 
-[node name="Fondo" type="Sprite2D" parent="."]
-position = Vector2(569, 321)
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Fondo" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(574, 326)
 scale = Vector2(5.1, 2.89111)
 texture = ExtResource("1_vdppq")
 
-[node name="Robot" type="Sprite2D" parent="."]
-position = Vector2(103, 370)
+[node name="Robot" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(119, 353)
 scale = Vector2(1.88391, 1.34796)
 texture = ExtResource("2_vic46")
 
-[node name="texto" type="Label" parent="."]
-offset_left = 163.0
-offset_top = 329.0
-offset_right = 570.0
-offset_bottom = 434.0
+[node name="texto" type="Label" parent="CanvasLayer"]
+offset_left = 153.0
+offset_top = 210.0
+offset_right = 560.0
+offset_bottom = 315.0
 text = "Que bueno que llegas. Ha surgido un gran problema.
 "
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="GridContainer" type="GridContainer" parent="CanvasLayer"]
-offset_left = 41.0
-offset_top = 455.0
-offset_right = 1633.0
-offset_bottom = 975.0
-scale = Vector2(1.22222, 1)
-theme_override_constants/h_separation = 9
-theme_override_constants/v_separation = 0
-columns = 3
-
-[node name="REPORTAR" type="Button" parent="CanvasLayer/GridContainer"]
-custom_minimum_size = Vector2(150, 50)
-layout_mode = 2
-icon = ExtResource("3_304tt")
-flat = true
-icon_alignment = 1
-
-[node name="ESCANNER" type="Button" parent="CanvasLayer/GridContainer"]
-layout_mode = 2
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 229.0
+offset_top = 485.0
+offset_right = 749.0
+offset_bottom = 1005.0
+scale = Vector2(0.22039, 0.192149)
 icon = ExtResource("4_qxbiw")
 flat = true
 
-[node name="MENSAJES" type="Button" parent="CanvasLayer/GridContainer"]
-layout_mode = 2
+[node name="Button2" type="Button" parent="CanvasLayer"]
+offset_left = 83.0
+offset_top = 491.0
+offset_right = 603.0
+offset_bottom = 1011.0
+scale = Vector2(0.184511, 0.163328)
+icon = ExtResource("3_304tt")
+flat = true
+
+[node name="Button3" type="Button" parent="CanvasLayer"]
+offset_left = 381.0
+offset_top = 478.0
+offset_right = 901.0
+offset_bottom = 998.0
+scale = Vector2(0.251563, 0.20838)
 icon = ExtResource("5_86s8s")
 flat = true

@@ -1,0 +1,63 @@
+[gd_scene load_steps=6 format=3 uid="uid://dw0akqd8lcqnm"]
+
+[ext_resource type="Script" uid="uid://b2qxb54yr4bc0" path="res://SCRIPITS/scripts.gd" id="1_kk1ac"]
+[ext_resource type="Texture2D" uid="uid://bpc40hy878nwe" path="res://6053836.jpg" id="1_wnds5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kk1ac"]
+bg_color = Color(0.273849, 0.450497, 0.801959, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5s4tl"]
+bg_color = Color(0.392157, 0.596078, 0.980392, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_at3sd"]
+bg_color = Color(0.384863, 0.58233, 1, 1)
+
+[node name="Menú_juego" type="Node2D"]
+script = ExtResource("1_kk1ac")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -9.0
+offset_top = -18.0001
+offset_right = 2991.0
+offset_bottom = 1982.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.446384, 0.369383)
+texture = ExtResource("1_wnds5")
+stretch_mode = 1
+flip_h = true
+flip_v = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 288.0
+offset_top = 168.0
+offset_right = 872.0
+offset_bottom = 505.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 41
+
+[node name="jugar" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 56
+theme_override_styles/normal = SubResource("StyleBoxFlat_kk1ac")
+text = "JUGAR"
+
+[node name="config" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 56
+theme_override_styles/normal = SubResource("StyleBoxFlat_5s4tl")
+text = "CONFIGURACIONES"
+
+[node name="salir" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 56
+theme_override_styles/normal = SubResource("StyleBoxFlat_at3sd")
+text = "SALIR"
+
+[connection signal="pressed" from="VBoxContainer/jugar" to="." method="_on_jugar_pressed"]
+[connection signal="pressed" from="VBoxContainer/config" to="." method="_on_config_pressed"]
+[connection signal="pressed" from="VBoxContainer/salir" to="." method="_on_salir_pressed"]

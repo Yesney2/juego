@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxy1vk7us7vbj"]
+
+[ext_resource type="Texture2D" uid="uid://bjtgqijbx0n3m" path="res://gradient_2.jpg" id="1_gdbym"]
+
+[node name="Mensajes" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(590.5, 315)
+scale = Vector2(0.390333, 0.379)
+texture = ExtResource("1_gdbym")
